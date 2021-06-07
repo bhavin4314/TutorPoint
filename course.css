@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Newsreader', serif;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* *************************************navbar******************************************** */
+
+
+
+.header {
+    background-image: url("image/keyboard.jpg");
+    /* width: 100%;
+    height: 50vh;
+    background-size: 100% 100%; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+
+}
+
+.logo {
+    width: 120px;
+    height: 80px;
+}
+
+.navtitle:hover {
+    color: #2d2d2d;
+}
+
+.navmenu {
+    font-size: 17px;
+}
+
+.navmenu li {
+    padding-right: 50px;
+}
+
+.nav-link:hover {
+    color: #C60021;
+}
+
+.loginbtn {
+    background-color: #cf334d;
+    color: #fff;
+    border-radius: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.loginbtn:hover {
+    background-color: #2E4053;
+}
+
+
+/* *************************************navbar******************************************** */
+
+
+
+/* ********************************course****************************************** */
+.inner1 {
+    margin-top: -110px;
+
+}
+
+.inner2 {
+    background-color: #cf334d;
+    min-height: 130px;
+}
+
+.btnsearch {
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+/* ********************************course****************************************** */
+
+
+/* ********************************article****************************************** */
+
+.img1 {
+    width: 70%;
+    height: 60vh;
+}
+
+/* ********************************article****************************************** */
+
+
+
+/* *******************************extra****************************************** */
+.extra h2 {
+    color: #2d2d2d;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.extra p:hover {
+    color: #cf334d;
+}
+
+.extra .btn:hover {
+    background-color: #cf334d;
+}
+
+/* ********************************extra****************************************** */
+
+
+
+/* ********************************foot****************************************** */
+.foot {
+    background-color: #2d2d2d;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.foothead {
+    font-size: large;
+    font-weight: bold;
+}
+
+.foot ul li a:hover {
+    color: rgb(255, 53, 2);
+}
+
+/* ********************************foot****************************************** */
+
+
+
+
+
+
+/* ********************************responsive****************************************** */
+
+@media (max-width:441px) {
+    .navtitle {
+        font-size: 1.3rem !important;
+    }
+}
+
+@media (max-width:367px) {
+    .navtitle {
+        font-size: 1rem !important;
+    }
+
+    .logo {
+        width: 95px;
+        height: 70px;
+    }
+}
+
+@media (max-width:330px) {
+    .inner1 h2 {
+        font-size: 20px !important;
+    }
+}
+
+/* ********************************responsive****************************************** */
